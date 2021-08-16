@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+/* *(全対象) */
+html {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin:0;
+  padding:0;
+  color:#4a4a4a;
+  line-height:1.5;
+  background-color:#fff;
+}
+
+h1,h2,h3,h4 {
+  margin:0 ;
+  padding: 0;
+  font-weight:bold;
+}
+
+h1 {
+  font-size:18px; /* 変更 */
+}
+
+h2 {
+  font-size:24px; /* 変更 */
+  text-align:center;
+}
+
+h3 {
+  font-size: 16px; /* 変更 */
+  text-align: center;
+}
+
+p,a {
+  margin:0;
+  padding:0;
+  font-size:16px; /* 変更 */
+  color: #4a4a4a;
+}
+
+
+a:hover {
+  opacity:0.7;
+}
+
+
+
+
+.inner {
+  padding: 50px 30px; /* 変更 */
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.line {
+  background-color: #4a4a4a;
+  width: 55px;
+  height: 1px;
+  margin: 30px auto 60px;
+}
+
+li {
+  list-style: none;
+}
+
+
+header ul {
+  display: none; /* 変更 */
+}
+
+/* mainvisual */
+
+.mainvisual {
+  height: 60vh; /* 変更 */
+  background-image: url(images/mainvisual.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mainvisual h2 {
+  text-align: center;
+  color: #fff;
+  font-size:23px; /* 変更 */
+  font-weight: bold;
+  line-height: 2;
+}
+.works-card-wrapper {
+  display: block; /* 変更 */
+  justify-content: space-between;
+}
+
+.works-card-wrapper:last-child {
+  margin-top: 0; /* 変更 */
+}
+
+.works-card {
+  width: 100%; /* 変更 */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.7);
+  margin-top: 20px; /* 追加 */
+}
+
+input {
+  width: 100%; /* 変更 */
+  padding: 10px 0;
+  margin-bottom:30px;
+}
+
+textarea {
+  width: 100%; /* 変更 */
+  padding: 5px 0 120px 0;
+  margin-bottom: 30px;
+}
+
+
+/* footer */
+
+footer p {
+  color: #fff;
+  padding: 10px 0; /* 変更 */
+}
+
+}
